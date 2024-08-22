@@ -7,12 +7,12 @@
 #
 Name     : R-Biobase
 Version  : 2.64.0
-Release  : 1
+Release  : 2
 URL      : https://bioconductor.org/packages/release/bioc/src/contrib/Biobase_2.64.0.tar.gz
 Source0  : https://bioconductor.org/packages/release/bioc/src/contrib/Biobase_2.64.0.tar.gz
 Summary  : Biobase: Base functions for Bioconductor
 Group    : Development/Tools
-License  : @@ Artistic-2.0
+License  : Artistic-2.0
 Requires: R-Biobase-lib = %{version}-%{release}
 Requires: R-BiocGenerics
 BuildRequires : R-BiocGenerics
@@ -40,10 +40,10 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1724349976
+export SOURCE_DATE_EPOCH=1724350535
 
 %install
-export SOURCE_DATE_EPOCH=1724349976
+export SOURCE_DATE_EPOCH=1724350535
 rm -rf %{buildroot}
 LANG=C.UTF-8
 CFLAGS="$CLEAR_INTERMEDIATE_CFLAGS -O3 -flto -fno-semantic-interposition "

@@ -7,7 +7,7 @@
 #
 Name     : R-Biobase
 Version  : 2.64.0
-Release  : 2
+Release  : 3
 URL      : https://bioconductor.org/packages/release/bioc/src/contrib/Biobase_2.64.0.tar.gz
 Source0  : https://bioconductor.org/packages/release/bioc/src/contrib/Biobase_2.64.0.tar.gz
 Summary  : Biobase: Base functions for Bioconductor
